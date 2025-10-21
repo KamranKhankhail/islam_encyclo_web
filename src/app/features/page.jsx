@@ -73,7 +73,7 @@ export default function Page() {
       <Grid
         container
         columns={12}
-        spacing={{ lg: 6, md: 6, sm: 3, xs: 3, mob: 3 }}
+        spacing={{ lg: 6, md: 6, sm: 6, xs: 6, mob: 6 }}
         sx={{
           px: {
             lg: "104px",
@@ -84,7 +84,7 @@ export default function Page() {
           },
           // alignItems: { md: "center", lg: "center" },
           zIndex: 2000,
-          pt: "60px",
+          pt: "80px",
         }}
       >
         <Grid item size={{ md: 6, sm: 6, xs: 12, mob: 12 }}>
@@ -93,15 +93,17 @@ export default function Page() {
             variant="body2"
             sx={{
               fontSize: {
-                lg: "47px",
-                md: "47px",
-                sm: "36px",
-                xs: "32px",
-                mob: "32px",
+                lg: "44px",
+                md: "44px",
+                sm: "34px",
+                xs: "30px",
+                mob: "28px",
               },
               fontWeight: "700",
               lineHeight: {
-                md: "100%",
+                xl: "130%",
+                lg: "130%",
+                md: "130%",
                 sm: "60px",
                 xs: "50px",
                 mob: "50px",
@@ -116,23 +118,25 @@ export default function Page() {
             variant="body2"
             sx={{
               fontSize: {
-                lg: "47px",
-                md: "47px",
-                sm: "36px",
-                xs: "32px",
-                mob: "32px",
+                lg: "44px",
+                md: "44px",
+                sm: "34px",
+                xs: "30px",
+                mob: "28px",
               },
               fontWeight: "400",
               lineHeight: {
-                md: "100%",
+                xl: "130%",
+                lg: "130%",
+                md: "130%",
                 sm: "60px",
                 xs: "50px",
                 mob: "50px",
               },
               color: "#008081",
               pb: {
-                lg: "80px",
-                md: "60px",
+                lg: "60px",
+                md: "40px",
                 sm: "50px",
                 xs: "40px",
                 mob: "30px",

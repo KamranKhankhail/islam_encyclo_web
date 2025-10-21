@@ -259,14 +259,7 @@ export default function FeaturesSection({ exploreMoreBtnExist = true }) {
                                   ? "start"
                                   : "center",
                             },
-                            lineHeight: {
-                              xl: "130%",
-                              lg: "130%",
-                              md: "130%",
-                              sm: "100%",
-                              xs: "100%",
-                              mob: "100%",
-                            },
+                            lineHeight: "130%",
                             // color: "#61698b",
                             color: theme.palette.primary.thirdMain,
                           }}

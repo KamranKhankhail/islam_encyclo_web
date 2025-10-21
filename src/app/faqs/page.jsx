@@ -49,7 +49,13 @@ export default function page() {
           "& .MuiInputBase-input": {
             py: "20px",
             px: "10px",
-            fontSize: "28px",
+            fontSize: {
+              lg: "28px",
+              md: "28px",
+              sm: "26px",
+              xs: "22px",
+              mob: "20px",
+            },
             color: "#2424249C",
           },
         }}

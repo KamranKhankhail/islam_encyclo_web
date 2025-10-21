@@ -76,12 +76,13 @@ const notoNastaliqUrdu = Noto_Nastaliq_Urdu({
 
 export const metadata = {
   title: {
-    default: "Islam Encyclo",
+    default:
+      " Islam Encyclo - The Complete Islamic App for Quran, Hadith & Islamic Guide | Kivyx",
     template: "%s | Islam Encyclo", // auto append brand name
   },
   description:
     "Islam Encyclo by Kivyx is a complete Islamic app that brings the Holy Quran with translations, audio recitations, and offline PDF, along with Hadith collections, daily duas, Azkar, tasbeeh counter, and Asma-ul-Husna & Asma-un-Nabi. Stay punctual with prayer times, namaz reminders, streak-based salah tracking, Qibla finder, nearby mosque locator, fasting timetable, and detailed Salah & Wudu guides for both men and women. Plus, enjoy Islamic WhatsApp statuses, quizzes, and more — your all-in-one digital Islamic companion.",
-  metadataBase: new URL("https://www.kivyx.com"), // your domain
+  metadataBase: new URL("https://islamencyclo.kivyx.com/"), // your domain
   icons: {
     icon: "/favicon.svg",
   },
@@ -89,11 +90,11 @@ export const metadata = {
     title: "Islam Encyclo - Complete Quran, Hadith & Islamic App | Kivyx",
     description:
       "Experience the ultimate Islamic app with Quran recitations, translations & PDF, Hadith, duas, tasbeeh, Azkar, Asma-ul-Husna, Asma-un-Nabi, prayer times & reminders, Qibla direction, nearby mosque finder, fasting timetable, Salah & Wudu guides, Islamic quizzes, WhatsApp statuses, and prayer streak tracking. Islam Encyclo is your all-in-one Islamic lifestyle app.",
-    url: "https://www.kivyx.com/products/islam-encyclo",
+    url: "https://islamencyclo.kivyx.com/",
     siteName: "Kivyx",
     images: [
       {
-        url: "https://www.kivyx.com/images/IslamEncycloBg.png",
+        url: "https://islamencyclo.kivyx.com/images/IslamEncycloBg.png",
         width: 1200,
         height: 630,
         alt: "Islam Encyclo - Islamic App by Kivyx",
@@ -107,7 +108,7 @@ export const metadata = {
     title: "Islam Encyclo - Quran, Hadith, Duas, Prayer Times & More | Kivyx",
     description:
       "Islam Encyclo is your complete Islamic app with Quran (read, listen, PDF), Hadith, duas, tasbeeh, Azkar, Asma-ul-Husna, Asma-un-Nabi, prayer reminders, Qibla finder, mosque locator, fasting timetable, Salah & Wudu guides, Islamic quizzes, WhatsApp statuses & prayer streak tracking. Available on Android & iOS.",
-    images: ["https://www.kivyx.com/images/IslamEncycloBg.png"],
+    images: ["https://islamencyclo.kivyx.com/images/IslamEncycloBg.png"],
   },
 };
 
@@ -138,8 +139,8 @@ export default function RootLayout({ children }) {
                 url: "https://www.kivyx.com",
                 logo: "https://www.kivyx.com/favicon.ico",
               },
-              url: "https://www.kivyx.com/products/islam-encyclo",
-              image: "https://www.kivyx.com/images/IslamEncycloBg.png",
+              url: "https://islamencyclo.kivyx.com/",
+              image: "https://islamencyclo.kivyx.com/images/IslamEncycloBg.png",
               featureList: [
                 "Quran with translations",
                 "Audio Quran recitations",

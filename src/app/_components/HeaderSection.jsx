@@ -13,6 +13,7 @@ import DownloadNowButton from "@/components/common/DownloadNowButton";
 import PrayerTimeAndAndAyatSlider from "./PrayerTimeAndAyatSlider";
 import SectionMainHeading from "@/components/common/SectionMainHeading";
 import theme from "@/styles/theme";
+import SectionMajorButton from "@/components/common/SectionMajorButton";
 const prayersData = [
   { name: "Fajr", key: "Fajr", icon: "/images/prayerImages/fajr.png" },
   { name: "Dhuhr", key: "Dhuhr", icon: "/images/prayerImages/zuhar.png" },
@@ -297,13 +298,7 @@ export default async function HeaderSection() {
               mob: "18px",
             },
             fontWeight: "300",
-            lineHeight: {
-              lg: "130%",
-              md: "120%",
-              sm: "110%",
-              xs: "100%",
-              mob: "100%",
-            },
+            lineHeight: "130%",
             color: theme.palette.primary.main,
             textAlign: "center",
             zIndex: "5",
@@ -316,7 +311,7 @@ export default async function HeaderSection() {
           authentic Duas, and practical guidance for Umrah and Hajj and
           everything you need to grow in faith, all in one place.
         </Typography>
-        <DownloadNowButton />
+        <SectionMajorButton my="20px">Download Now</SectionMajorButton>
       </Stack>
     </>
   );

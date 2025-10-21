@@ -20,15 +20,21 @@ export default function SectionMainHeading({
       variant="body2"
       sx={{
         fontSize: {
-          xl: "72px",
-          lg: "62px",
-          md: "52px",
+          xl: "66px",
+          lg: "56px",
+          md: "48px",
           sm: "42px",
-          xs: "32px",
-          mob: "28px",
+          xs: "42px",
+          mob: "36px",
         },
         fontWeight: "500",
-        lineHeight: { md: "130%", sm: "120%", xs: "100%", mob: "100%" },
+        lineHeight: {
+          lg: "130%",
+          md: "130%",
+          sm: "120%",
+          xs: "120%",
+          mob: "120%",
+        },
 
         color: color === "" ? theme.palette.primary.main : color,
         textAlign: "center",
