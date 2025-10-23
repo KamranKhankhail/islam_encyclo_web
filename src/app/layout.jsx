@@ -84,14 +84,14 @@ export const metadata = {
     "Islam Encyclo by Kivyx is a complete Islamic app that brings the Holy Quran with translations, audio recitations, and offline PDF, along with Hadith collections, daily duas, Azkar, tasbeeh counter, and Asma-ul-Husna & Asma-un-Nabi. Stay punctual with prayer times, namaz reminders, streak-based salah tracking, Qibla finder, nearby mosque locator, fasting timetable, and detailed Salah & Wudu guides for both men and women. Plus, enjoy Islamic WhatsApp statuses, quizzes, and more — your all-in-one digital Islamic companion.",
   metadataBase: new URL("https://islamencyclo.kivyx.com/"), // your domain
   icons: {
-    icon: "/favicon.svg",
+    icon: "/favicon.png",
   },
   openGraph: {
     title: "Islam Encyclo - Complete Quran, Hadith & Islamic App | Kivyx",
     description:
       "Experience the ultimate Islamic app with Quran recitations, translations & PDF, Hadith, duas, tasbeeh, Azkar, Asma-ul-Husna, Asma-un-Nabi, prayer times & reminders, Qibla direction, nearby mosque finder, fasting timetable, Salah & Wudu guides, Islamic quizzes, WhatsApp statuses, and prayer streak tracking. Islam Encyclo is your all-in-one Islamic lifestyle app.",
     url: "https://islamencyclo.kivyx.com/",
-    siteName: "Kivyx",
+    siteName: "Islam Encyclo",
     images: [
       {
         url: "https://islamencyclo.kivyx.com/images/IslamEncycloBg.png",
@@ -126,6 +126,7 @@ export default function RootLayout({ children }) {
               name: "Islam Encyclo",
               operatingSystem: "Android, iOS",
               applicationCategory: "LifestyleApplication",
+
               offers: {
                 "@type": "Offer",
                 price: "0",
@@ -168,6 +169,8 @@ export default function RootLayout({ children }) {
             }),
           }}
         />
+        <meta name="application-name" content="Islam Encyclo" />
+        <meta name="apple-mobile-web-app-title" content="Islam Encyclo" />
         <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
       </head>
       <body
