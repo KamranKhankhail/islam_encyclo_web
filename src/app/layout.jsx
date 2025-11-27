@@ -136,7 +136,7 @@ export default function RootLayout({ children }) {
                 "Islam Encyclo by Kivyx Technologies is the ultimate all-in-one Islamic mobile app that empowers Muslims worldwide to stay connected with their faith. It features the Holy Quran with multiple translations, beautiful audio recitations, and downloadable PDF for offline reading. The app also includes authentic Hadith collections, a comprehensive dua library, daily Azkar, a digital tasbeeh counter, and both Asma-ul-Husna (Names of Allah) & Asma-un-Nabi (Names of the Prophet) for spiritual learning. Stay punctual with highly accurate prayer times, customizable namaz reminders, and streak-based prayer tracking to motivate consistency. With a built-in Qibla Finder, nearby mosque locator integrated with Google Maps, fasting timetable for Ramadan, and detailed Salah & Wudu guides for both men and women, it covers every essential Islamic need. Additional features include Islamic WhatsApp statuses, fun and educational quizzes, and tools for fasting & prayer tracking. Islam Encyclo is not just an app — it’s your complete Islamic lifestyle companion available for free on Android and iOS.",
               publisher: {
                 "@type": "Organization",
-                name: "Kivyx Technologies",
+                name: "Islam Encyclo",
                 url: "https://www.kivyx.com",
                 logo: "https://www.kivyx.com/favicon.ico",
               },
