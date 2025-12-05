@@ -172,6 +172,11 @@ export default function RootLayout({ children }) {
         <meta name="application-name" content="Islam Encyclo" />
         <meta name="apple-mobile-web-app-title" content="Islam Encyclo" />
         <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-xxxxxxxxxxxx"
+          crossOrigin="anonymous"
+        />
       </head>
       <body
         className={`${chakraPetch.className} ${inter.variable} ${jaro.variable} ${geistSans.variable} ${geistMono.variable} antialiased ${roboto.variable} ${bebasNeue.variable} ${mulish.variable} ${notoNastaliqUrdu.variable}`} // Add notoNastaliqUrdu.variable
