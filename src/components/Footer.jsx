@@ -36,8 +36,7 @@ const companyLinksData = [
     title: "",
     linksTitle: [
       { title: "Features", href: "/features" },
-      { title: "Demo", href: "/demo" },
-      { title: "Team", href: "/team" },
+      { title: "Demo", href: "/quick-demo" },
     ],
   },
 
@@ -49,11 +48,12 @@ const companyLinksData = [
         title: "FAQs",
         href: "/faqs",
       },
-      {
-        title: "Disclaimer",
-        href: "/disclaimer",
-      },
-      { title: "Quran", href: "/quran" },
+      { title: "Team", href: "/team" },
+      // {
+      //   title: "Disclaimer",
+      //   href: "/disclaimer",
+      // },
+      // { title: "Quran", href: "/quran" },
     ],
   },
   {

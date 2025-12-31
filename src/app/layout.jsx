@@ -15,6 +15,7 @@ import Navbar from "@/components/Navbar";
 import PageLoader from "@/components/common/PageLoader";
 import NavigationWrapper from "@/components/common/NavigationWrapper";
 import { Stack } from "@mui/material";
+import Script from "next/script";
 
 const chakraPetch = Chakra_Petch({
   subsets: ["latin"],
@@ -117,7 +118,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         {/* ✅ Organization JSON-LD for Google */}
-        <script
+        <Script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
@@ -171,12 +172,13 @@ export default function RootLayout({ children }) {
         />
         <meta name="application-name" content="Islam Encyclo" />
         <meta name="apple-mobile-web-app-title" content="Islam Encyclo" />
-        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-        <script
+        <Script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></Script>
+        <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-xxxxxxxxxxxx"
           crossOrigin="anonymous"
         />
+        <meta name="google-site-verification" content="YOUR_CODE" />
       </head>
       <body
         className={`${chakraPetch.className} ${inter.variable} ${jaro.variable} ${geistSans.variable} ${geistMono.variable} antialiased ${roboto.variable} ${bebasNeue.variable} ${mulish.variable} ${notoNastaliqUrdu.variable}`} // Add notoNastaliqUrdu.variable
