@@ -11,6 +11,7 @@ import SnapchatFooterIcon from "@/icons/SnapchatFooterIcon";
 import Link from "next/link";
 import IslamEncycloNavbarIcon from "@/icons/IslamEncycloNavbarIcon";
 import theme from "@/styles/theme";
+
 const teamSocialIcons = [
   {
     icon: YoutubeFooterIcon,
@@ -66,6 +67,9 @@ const companyLinksData = [
 ];
 
 export default function Footer() {
+  const lastUpdatedYear = new Date().toLocaleDateString("en-US", {
+    year: "numeric",
+  });
   return (
     <Stack
       sx={{
@@ -393,7 +397,7 @@ export default function Footer() {
             },
           }}
         >
-          2024 Kivyx Technologies. All rights reserved
+          {lastUpdatedYear} Kivyx Technologies. All rights reserved
         </Typography>
         <Typography
           variant="body2"

@@ -1,9 +1,8 @@
-// src/app/privacy-policy/page.jsx
 import React from "react";
 import { Box, Typography, Container, Link, Stack } from "@mui/material";
 
 export const metadata = {
-  title: "Privacy Policy",
+  title: "Privacy Policy - Islam Encyclo",
   description:
     "Privacy Policy for Islam Encyclo by Kivyx Technologies - focused on minimal data collection.",
 };
@@ -11,8 +10,6 @@ export const metadata = {
 export default function PrivacyPolicyPage() {
   return (
     <Container maxWidth="md" sx={{ py: { xs: 3, sm: 4, md: 8 } }}>
-      {" "}
-      {/* Adjusted vertical padding */}
       <Stack>
         <Typography
           variant="h3"
@@ -23,11 +20,11 @@ export default function PrivacyPolicyPage() {
             color: "primary.dark",
             fontWeight: 700,
             mb: { xs: 2, md: 4 },
-            fontSize: { xs: "1.6rem", sm: "2.2rem", md: "3rem" }, // Further reduced for xs, slightly for sm
-            lineHeight: { xs: 1.2, md: 1.3 }, // Adjust line height for headings
+            fontSize: { xs: "1.6rem", sm: "2.2rem", md: "3rem" },
+            lineHeight: { xs: 1.2, md: 1.3 },
           }}
         >
-          Privacy Policy
+          Privacy Policy for Islam Encyclo
         </Typography>
         <Typography
           variant="subtitle1"
@@ -36,10 +33,10 @@ export default function PrivacyPolicyPage() {
           sx={{
             color: "text.secondary",
             mb: { xs: 3, md: 5 },
-            fontSize: { xs: "0.8rem", sm: "0.95rem", md: "1.1rem" }, // Further reduced for xs
+            fontSize: { xs: "0.8rem", sm: "0.95rem", md: "1.1rem" },
           }}
         >
-          Last updated: December 31, 2025
+          Last updated: 04 January 2026
         </Typography>
 
         <Typography
@@ -47,92 +44,36 @@ export default function PrivacyPolicyPage() {
           paragraph
           sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
         >
-          {" "}
-          {/* Responsive font size for body */}
-          Kivyx Technologies operates the Islam Encyclo mobile application (the
-          "App") and the{" "}
-          <Link href="https://islamencyclo.kivyx.com/" target="_blank">
-            islamencyclo.kivyx.com
-          </Link>{" "}
-          website (the "Service"). This Privacy Policy outlines how Kivyx
-          Technologies handles information when you use the Service.
-        </Typography>
-        <Typography
-          variant="body1"
-          paragraph
-          sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
-        >
-          At Kivyx Technologies, your privacy is a top priority. Our website
-          does not require user accounts or personal sign-in information. The
-          only information our website may access is your approximate device
-          location, which is used solely to provide accurate prayer times based
-          on your current geographical area. This information is processed in
-          real-time and is{" "}
-          <Typography component="span" fontWeight="bold">
-            never stored or used to personally identify you.
-          </Typography>
-        </Typography>
-        <Typography
-          variant="body1"
-          paragraph
-          sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
-        >
-          For the Islam Encyclo mobile App, this policy also covers data
-          handling. Please note that while the website's data collection is
-          minimal, the mobile application may collect additional information as
-          necessary for its features (e.g., prayer streak, personalized
-          settings).
+          Islam Encyclo is a Quranic and spiritual companion application
+          available on Android and iOS. This Privacy Policy explains how the app
+          handles information following a major migration and update to its
+          internal architecture. Our goal is to provide core features such as
+          Quran audio, offline access, reminders, quizzes, Tasbeeh counters, and
+          personalization while respecting user privacy and maintaining platform
+          compliance.
         </Typography>
 
         <Typography
           variant="h4"
           component="h2"
           gutterBottom
-          mt={{ xs: 2, sm: 3, md: 5 }} // Adjusted margin-top for smaller screens
+          mt={{ xs: 2, sm: 3, md: 5 }}
           sx={{
             color: "primary.main",
-            fontSize: { xs: "1.2rem", sm: "1.6rem", md: "2.125rem" }, // Further reduced for xs, slightly for sm
+            fontSize: { xs: "1.2rem", sm: "1.6rem", md: "2.125rem" },
             lineHeight: { xs: 1.3, md: 1.4 },
           }}
         >
-          1. Information Kivyx Technologies Collects
+          Information We Collect
         </Typography>
         <Typography
           variant="body1"
           paragraph
           sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
         >
-          Kivyx Technologies collects very limited information, primarily for
-          the functionality of the Service.
-        </Typography>
-
-        <Typography
-          variant="h5"
-          component="h3"
-          gutterBottom
-          mt={{ xs: 1.5, sm: 2, md: 3 }} // Adjusted margin-top
-          sx={{
-            color: "primary.main",
-            fontSize: { xs: "1rem", sm: "1.2rem", md: "1.5rem" },
-          }} // Further reduced for xs, slightly for sm
-        >
-          Location Data (Website & App)
-        </Typography>
-        <Typography
-          variant="body1"
-          paragraph
-          sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
-        >
-          The Islam Encyclo website may request access to your device's
-          approximate location (e.g., through browser geolocation) to
-          automatically determine and display accurate prayer times. This
-          location data is used for{" "}
-          <Typography component="span" fontWeight="bold">
-            real-time calculation only and is not stored, tracked, or associated
-            with any individual user profile on the website.
-          </Typography>{" "}
-          The mobile App also uses location data for prayer times and Qibla
-          direction, which may be stored locally on your device for convenience.
+          Islam Encyclo is designed to work without user accounts or
+          registration. The app collects only limited information necessary to
+          operate features reliably and improve quality.
         </Typography>
 
         <Typography
@@ -145,34 +86,19 @@ export default function PrivacyPolicyPage() {
             fontSize: { xs: "1rem", sm: "1.2rem", md: "1.5rem" },
           }}
         >
-          Usage Data (Website & App)
+          App usage and diagnostics
         </Typography>
         <Typography
           variant="body1"
           paragraph
           sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
         >
-          When you access the Service, Kivyx Technologies may collect
-          information that your browser sends whenever you visit the website or
-          use the App ("Usage Data"). This Usage Data may include information
-          such as your device's Internet Protocol address (e.g., IP address),
-          browser type, browser version, the pages of the Service that you
-          visit, the time and date of your visit, the time spent on those pages,
-          and other diagnostic data.
-        </Typography>
-        <Typography
-          variant="body1"
-          paragraph
-          sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
-        >
-          For the mobile App, this Usage Data may also include anonymous app
-          usage statistics (e.g., features used, duration) and crash reports,
-          which help Kivyx Technologies improve the App's stability and
-          performance.{" "}
-          <Typography component="span" fontWeight="bold">
-            This data is aggregated and anonymized
-          </Typography>{" "}
-          and cannot be used to identify you personally.
+          The app may collect anonymized usage information such as screen
+          interactions, feature usage, session duration, app version, and basic
+          device characteristics. This data is used in aggregate to understand
+          how features perform, improve stability, and fix errors. Crash and
+          error reports may include technical device state at the time of
+          failure but are not used to identify individual users.
         </Typography>
 
         <Typography
@@ -185,155 +111,20 @@ export default function PrivacyPolicyPage() {
             fontSize: { xs: "1rem", sm: "1.2rem", md: "1.5rem" },
           }}
         >
-          Tracking & Cookies Data (Website)
+          Device and preference information
         </Typography>
         <Typography
           variant="body1"
           paragraph
           sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
         >
-          The Islam Encyclo website uses cookies and similar tracking
-          technologies to track activity and enhance your browsing experience.
-          Cookies are small data files stored on your device. Kivyx Technologies
-          uses them for:
-        </Typography>
-        <Box component="ul" sx={{ pl: { xs: 2, md: 4 }, my: 2 }}>
-          {" "}
-          {/* Adjusted list padding */}
-          <Typography
-            component="li"
-            variant="body1"
-            sx={{ mb: 1, fontSize: { xs: "0.95rem", sm: "1rem" } }}
-          >
-            <Typography component="span" fontWeight="bold">
-              Functionality:
-            </Typography>{" "}
-            To remember your preferences (e.g., language, theme).
-          </Typography>
-          <Typography
-            component="li"
-            variant="body1"
-            sx={{ mb: 1, fontSize: { xs: "0.95rem", sm: "1rem" } }}
-          >
-            <Typography component="span" fontWeight="bold">
-              Analytics:
-            </Typography>{" "}
-            To understand how the website is used and identify areas for
-            improvement. This data is aggregated and anonymous.
-          </Typography>
-          <Typography
-            component="li"
-            variant="body1"
-            sx={{ mb: 1, fontSize: { xs: "0.95rem", sm: "1rem" } }}
-          >
-            <Typography component="span" fontWeight="bold">
-              Security:
-            </Typography>{" "}
-            To help ensure the security of the Service.
-          </Typography>
-        </Box>
-        <Typography
-          variant="body1"
-          paragraph
-          sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
-        >
-          You can instruct your browser to refuse all cookies or to indicate
-          when a cookie is being sent. However, some parts of the Service may
-          not function properly without cookies.
+          The app stores your selected language, theme, reading progress, prayer
+          preferences, reminders, and similar settings on your device. Limited
+          non-personal device information (such as operating system version,
+          locale, and connectivity status) may be processed to ensure correct
+          formatting, downloads, and feature behavior.
         </Typography>
 
-        <Typography
-          variant="h4"
-          component="h2"
-          gutterBottom
-          mt={{ xs: 2, sm: 3, md: 5 }}
-          sx={{
-            color: "primary.main",
-            fontSize: { xs: "1.3rem", sm: "1.8rem", md: "2.125rem" },
-            lineHeight: { xs: 1.3, md: 1.4 },
-          }}
-        >
-          2. How Kivyx Technologies Uses Your Information
-        </Typography>
-        <Typography
-          variant="body1"
-          paragraph
-          sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
-        >
-          Kivyx Technologies uses the collected information for the following
-          purposes:
-        </Typography>
-        <Box component="ul" sx={{ pl: { xs: 2, md: 4 }, my: 2 }}>
-          <Typography
-            component="li"
-            variant="body1"
-            sx={{ mb: 1, fontSize: { xs: "0.95rem", sm: "1rem" } }}
-          >
-            To provide and maintain the Service (e.g., delivering prayer times).
-          </Typography>
-          <Typography
-            component="li"
-            variant="body1"
-            sx={{ mb: 1, fontSize: { xs: "0.95rem", sm: "1rem" } }}
-          >
-            To understand and analyze how the Service is used to improve its
-            features and user experience.
-          </Typography>
-          <Typography
-            component="li"
-            variant="body1"
-            sx={{ mb: 1, fontSize: { xs: "0.95rem", sm: "1rem" } }}
-          >
-            To monitor the usage of the Service for performance and stability.
-          </Typography>
-          <Typography
-            component="li"
-            variant="body1"
-            sx={{ mb: 1, fontSize: { xs: "0.95rem", sm: "1rem" } }}
-          >
-            To detect, prevent, and address technical issues.
-          </Typography>
-          <Typography
-            component="li"
-            variant="body1"
-            sx={{ mb: 1, fontSize: { xs: "0.95rem", sm: "1rem" } }}
-          >
-            To deliver non-personalized advertisements (where applicable, e.g.,
-            Google AdSense), based on website content, not user identity.
-          </Typography>
-          <Typography
-            component="li"
-            variant="body1"
-            sx={{ mb: 1, fontSize: { xs: "0.95rem", sm: "1rem" } }}
-          >
-            To notify you about changes to the Service (App notifications, if
-            enabled, or prominent website notices).
-          </Typography>
-        </Box>
-
-        <Typography
-          variant="h4"
-          component="h2"
-          gutterBottom
-          mt={{ xs: 2, sm: 3, md: 5 }}
-          sx={{
-            color: "primary.main",
-            fontSize: { xs: "1.3rem", sm: "1.8rem", md: "2.125rem" },
-            lineHeight: { xs: 1.3, md: 1.4 },
-          }}
-        >
-          3. Sharing Your Information
-        </Typography>
-        <Typography
-          variant="body1"
-          paragraph
-          sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
-        >
-          Kivyx Technologies does not share any personally identifiable
-          information collected from website users. Aggregated and anonymized
-          usage data may be shared with third-party service providers to help
-          Kivyx Technologies analyze and improve the Service.
-        </Typography>
         <Typography
           variant="h5"
           component="h3"
@@ -341,50 +132,163 @@ export default function PrivacyPolicyPage() {
           mt={{ xs: 1.5, sm: 2, md: 3 }}
           sx={{
             color: "primary.main",
-            fontSize: { xs: "1.1rem", sm: "1.3rem", md: "1.5rem" },
+            fontSize: { xs: "1rem", sm: "1.2rem", md: "1.5rem" },
           }}
         >
-          Service Providers
+          Advertising data
         </Typography>
         <Typography
           variant="body1"
           paragraph
           sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
         >
-          Kivyx Technologies may employ third-party companies and individuals to
-          facilitate the Service ("Service Providers"), to provide
-          Service-related services or to assist in analyzing how the Service is
-          used. These third parties are granted access only to the necessary
-          anonymized data to perform these tasks on our behalf and are
-          contractually obligated not to disclose or use it for any other
-          purpose.
+          Islam Encyclo displays ads to support continued development.
+          Advertising partners may receive standard advertising identifiers
+          provided by your device, along with limited device and interaction
+          data, to deliver and measure ads. This data is handled by advertising
+          providers according to their own privacy policies and respects
+          system-level ad personalization controls.
         </Typography>
-        <Box component="ul" sx={{ pl: { xs: 2, md: 4 }, my: 2 }}>
-          <Typography
-            component="li"
-            variant="body1"
-            sx={{ mb: 1, fontSize: { xs: "0.95rem", sm: "1rem" } }}
-          >
-            <Typography component="span" fontWeight="bold">
-              Analytics (e.g., Google Analytics):
-            </Typography>{" "}
-            Kivyx Technologies uses analytics services to understand website
-            traffic and usage patterns. These services collect anonymous data
-            about your interactions with the site.
-          </Typography>
-          <Typography
-            component="li"
-            variant="body1"
-            sx={{ mb: 1, fontSize: { xs: "0.95rem", sm: "1rem" } }}
-          >
-            <Typography component="span" fontWeight="bold">
-              Advertising (e.g., Google AdSense & AdMob for App):
-            </Typography>{" "}
-            The Islam Encyclo website may display non-personalized ads. The
-            mobile App may use AdMob for advertising. These services collect
-            anonymous data related to ad impressions and clicks.
-          </Typography>
-        </Box>
+
+        <Typography
+          variant="h5"
+          component="h3"
+          gutterBottom
+          mt={{ xs: 1.5, sm: 2, md: 3 }}
+          sx={{
+            color: "primary.main",
+            fontSize: { xs: "1rem", sm: "1.2rem", md: "1.5rem" },
+          }}
+        >
+          Push notification data
+        </Typography>
+        <Typography
+          variant="body1"
+          paragraph
+          sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
+        >
+          If you choose to enable notifications, the app stores a device
+          notification token and basic metadata to deliver reminders such as
+          prayer times or app updates. Notification delivery statistics may be
+          collected to ensure reliability.
+        </Typography>
+
+        <Typography
+          variant="h5"
+          component="h3"
+          gutterBottom
+          mt={{ xs: 1.5, sm: 2, md: 3 }}
+          sx={{
+            color: "primary.main",
+            fontSize: { xs: "1rem", sm: "1.2rem", md: "1.5rem" },
+          }}
+        >
+          Location and sensor access
+        </Typography>
+        <Typography
+          variant="body1"
+          paragraph
+          sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
+        >
+          Location access is requested only when you actively use features that
+          require it, such as prayer times, Qibla direction, or nearby mosque
+          tools. Motion and orientation sensors may be used while these features
+          are open. This information is processed temporarily and is not
+          continuously tracked in the background.
+        </Typography>
+
+        <Typography
+          variant="h5"
+          component="h3"
+          gutterBottom
+          mt={{ xs: 1.5, sm: 2, md: 3 }}
+          sx={{
+            color: "primary.main",
+            fontSize: { xs: "1rem", sm: "1.2rem", md: "1.5rem" },
+          }}
+        >
+          Microphone and media access
+        </Typography>
+        <Typography
+          variant="body1"
+          paragraph
+          sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
+        >
+          Microphone access is used only for voice-based features you initiate.
+          Audio is processed on the device and is not stored or uploaded. Camera
+          or photo library access is requested only when you choose to create or
+          save images generated by the app.
+        </Typography>
+
+        <Typography
+          variant="h5"
+          component="h3"
+          gutterBottom
+          mt={{ xs: 1.5, sm: 2, md: 3 }}
+          sx={{
+            color: "primary.main",
+            fontSize: { xs: "1rem", sm: "1.2rem", md: "1.5rem" },
+          }}
+        >
+          Local storage and offline content
+        </Typography>
+        <Typography
+          variant="body1"
+          paragraph
+          sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
+        >
+          Downloaded Quran audio, documents, and other media are stored locally
+          on your device to enable offline use. The app does not retrieve copies
+          of your locally stored files. Basic download success or failure
+          information may be logged in an anonymized form to monitor
+          reliability.
+        </Typography>
+
+        <Typography
+          variant="h5"
+          component="h3"
+          gutterBottom
+          mt={{ xs: 1.5, sm: 2, md: 3 }}
+          sx={{
+            color: "primary.main",
+            fontSize: { xs: "1rem", sm: "1.2rem", md: "1.5rem" },
+          }}
+        >
+          Content hosting and delivery
+        </Typography>
+        <Typography
+          variant="body1"
+          paragraph
+          sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
+        >
+          Quranic audio, greeting graphics, background imagery, and other media
+          assets are hosted on secure servers and fetched on demand to ensure
+          fast, reliable streaming. These requests carry no personal identifiers
+          beyond standard connection metadata required for downloads.
+        </Typography>
+
+        <Typography
+          variant="h5"
+          component="h3"
+          gutterBottom
+          mt={{ xs: 1.5, sm: 2, md: 3 }}
+          sx={{
+            color: "primary.main",
+            fontSize: { xs: "1rem", sm: "1.2rem", md: "1.5rem" },
+          }}
+        >
+          Over-the-air updates
+        </Typography>
+        <Typography
+          variant="body1"
+          paragraph
+          sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
+        >
+          The app uses controlled update mechanisms to deliver fixes and feature
+          updates without requiring full app store updates. These updates may
+          collect minimal, anonymized device metadata to ensure compatibility
+          and rollout coverage.
+        </Typography>
 
         <Typography
           variant="h4"
@@ -397,18 +301,88 @@ export default function PrivacyPolicyPage() {
             lineHeight: { xs: 1.3, md: 1.4 },
           }}
         >
-          4. Security of Data
+          Cortos (Short-Form Video) Module
         </Typography>
         <Typography
           variant="body1"
           paragraph
           sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
         >
-          The security of your non-personal and aggregated data is important to
-          Kivyx Technologies. While we strive to use commercially acceptable
-          means to protect your information, remember that no method of
-          transmission over the Internet or method of electronic storage is 100%
-          secure. Kivyx Technologies cannot guarantee its absolute security.
+          Islam Encyclo includes a short-form video feature called "Cortos,"
+          which allows users to watch brief video content within the app.
+        </Typography>
+        <Typography
+          variant="body1"
+          paragraph
+          sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
+        >
+          Video playback in the Cortos module is provided using the YouTube
+          IFrame Player API. All videos displayed in Cortos are published and
+          managed by Islam Encyclo through its official YouTube channel. The app
+          does not display third-party, user-uploaded, or unauthorized video
+          content.
+        </Typography>
+        <Typography
+          variant="body1"
+          paragraph
+          sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
+        >
+          Islam Encyclo does not download, store, cache, re-host, modify, or
+          redistribute video or audio content from YouTube. Videos are streamed
+          directly from YouTube, and all playback controls, advertisements,
+          monetization, and viewing behavior are governed exclusively by YouTube
+          and Google policies.
+        </Typography>
+        <Typography
+          variant="body1"
+          paragraph
+          sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
+        >
+          The Cortos module itself does not collect, store, or process personal
+          user information, YouTube account data, watch history, likes,
+          comments, or subscription details. Users are not required to sign in
+          to a Google or YouTube account, and the app does not request Google or
+          YouTube authentication permissions.
+        </Typography>
+        <Typography
+          variant="body1"
+          paragraph
+          sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
+        >
+          Any data collected during video playback, such as device information,
+          IP address, or usage metrics, is collected directly by YouTube in
+          accordance with Google's Privacy Policy. Islam Encyclo does not
+          receive access to, control over, or ownership of this data.
+        </Typography>
+        <Typography
+          variant="body1"
+          paragraph
+          sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
+        >
+          Islam Encyclo does not inject additional advertisements, tracking
+          mechanisms, or third-party analytics into the Cortos module. Any
+          advertisements or analytics presented during playback are managed
+          entirely by YouTube.
+        </Typography>
+        <Typography
+          variant="body1"
+          paragraph
+          sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
+        >
+          The app does not bypass YouTube advertisements, enable background
+          playback or offline downloads, restrict YouTube interface elements, or
+          alter playback behavior in a way that circumvents YouTube policies.
+          Age, content, and regional restrictions enforced by YouTube remain
+          fully intact.
+        </Typography>
+        <Typography
+          variant="body1"
+          paragraph
+          sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
+        >
+          Content made available through Cortos is intended to comply with
+          YouTube Community Guidelines, child safety standards, and applicable
+          platform policies.
         </Typography>
 
         <Typography
@@ -422,26 +396,21 @@ export default function PrivacyPolicyPage() {
             lineHeight: { xs: 1.3, md: 1.4 },
           }}
         >
-          5. Links to Other Sites
+          Information We Do Not Collect
         </Typography>
         <Typography
           variant="body1"
           paragraph
           sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
         >
-          The Service may contain links to other sites that are not operated by
-          Kivyx Technologies. If you click on a third-party link, you will be
-          directed to that third party's site. Kivyx Technologies strongly
-          advises you to review the Privacy Policy of every site you visit.
-        </Typography>
-        <Typography
-          variant="body1"
-          paragraph
-          sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
-        >
-          Kivyx Technologies has no control over and assumes no responsibility
-          for the content, privacy policies, or practices of any third-party
-          sites or services.
+          Islam Encyclo does not collect names, email addresses, phone numbers,
+          account credentials, payment details, biometric identifiers, or social
+          media information. The app does not access contacts, messages, call
+          logs, or calendars. Background access to location, microphone, or
+          camera does not occur outside of features you explicitly open. The app
+          does not track continuous location history or collect health or
+          fitness data beyond what you record inside the app (e.g., Tasbeeh
+          counts or prayer streaks).
         </Typography>
 
         <Typography
@@ -455,21 +424,20 @@ export default function PrivacyPolicyPage() {
             lineHeight: { xs: 1.3, md: 1.4 },
           }}
         >
-          6. Children's Privacy
+          How We Use Information
         </Typography>
         <Typography
           variant="body1"
           paragraph
           sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
         >
-          The Service is not directed to anyone under the age of 13
-          ("Children"). Kivyx Technologies does not knowingly collect personally
-          identifiable information from Children through the website. As Kivyx
-          Technologies does not collect personal data from any website users,
-          this applies to children as well. For the mobile App, if Kivyx
-          Technologies learns that it has collected personal data from children
-          without verification of parental consent, steps will be taken to
-          remove that information.
+          Information is used to provide core app functionality, including Quran
+          listening, offline access, prayer calculations, reminders, Tasbeeh
+          counters, quizzes, and personalization. Local data storage allows the
+          app to remember your preferences without requiring server accounts.
+          Anonymized analytics and diagnostics help maintain performance,
+          reliability, and feature quality. Advertising data supports ad display
+          and measurement while honoring system privacy controls.
         </Typography>
 
         <Typography
@@ -483,26 +451,19 @@ export default function PrivacyPolicyPage() {
             lineHeight: { xs: 1.3, md: 1.4 },
           }}
         >
-          7. Changes to This Privacy Policy
+          Third-Party Services
         </Typography>
         <Typography
           variant="body1"
           paragraph
           sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
         >
-          Kivyx Technologies may update this Privacy Policy from time to time.
-          You will be notified of any changes by posting the new Privacy Policy
-          on this page.
-        </Typography>
-        <Typography
-          variant="body1"
-          paragraph
-          sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
-        >
-          Kivyx Technologies will update the "Last updated" date at the top of
-          this Privacy Policy. You are advised to review this Privacy Policy
-          periodically for any changes. Changes to this Privacy Policy are
-          effective when they are posted on this page.
+          Islam Encyclo relies on trusted third-party service providers for
+          infrastructure, analytics, crash reporting, advertisements,
+          notifications, content delivery, and app updates. These providers
+          process limited data on our behalf and operate under their own privacy
+          policies. Islam Encyclo does not sell user data or combine third-party
+          data with personal identities.
         </Typography>
 
         <Typography
@@ -516,39 +477,69 @@ export default function PrivacyPolicyPage() {
             lineHeight: { xs: 1.3, md: 1.4 },
           }}
         >
-          8. Contact Kivyx Technologies
+          User Rights and Choices
         </Typography>
         <Typography
           variant="body1"
           paragraph
           sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
         >
-          If you have any questions about this Privacy Policy, please contact
-          Kivyx Technologies:
+          You control app permissions through your device settings and can
+          revoke access at any time. Notifications can be disabled through
+          system settings. Advertising personalization can be limited or reset
+          using Android or iOS privacy controls. Removing the app deletes
+          locally stored data unless your operating system retains a backup you
+          manage. You may contact us to request removal of limited diagnostic or
+          analytics data where technically feasible.
         </Typography>
-        <Box component="ul" sx={{ pl: { xs: 2, md: 4 }, my: 2 }}>
-          <Typography
-            component="li"
-            variant="body1"
-            sx={{ mb: 1, fontSize: { xs: "0.95rem", sm: "1rem" } }}
-          >
-            By email:{" "}
-            <Link href="mailto:support@kivyx.com" target="_blank">
-              support@kivyx.com
-            </Link>
-          </Typography>
-          <Typography
-            component="li"
-            variant="body1"
-            sx={{ fontSize: { xs: "0.95rem", sm: "1rem" } }}
-          >
-            By visiting this page on our website:{" "}
-            <Link href="https://islamencyclo.kivyx.com/contact" target="_blank">
-              https://islamencyclo.kivyx.com/contact
-            </Link>{" "}
-            (Please ensure this contact page exists and is functional)
-          </Typography>
-        </Box>
+
+        <Typography
+          variant="h4"
+          component="h2"
+          gutterBottom
+          mt={{ xs: 2, sm: 3, md: 5 }}
+          sx={{
+            color: "primary.main",
+            fontSize: { xs: "1.3rem", sm: "1.8rem", md: "2.125rem" },
+            lineHeight: { xs: 1.3, md: 1.4 },
+          }}
+        >
+          Policy Updates and Acceptance
+        </Typography>
+        <Typography
+          variant="body1"
+          paragraph
+          sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
+        >
+          This Privacy Policy may be updated to reflect changes in features,
+          services, or privacy practices. Continued use of Islam Encyclo after
+          updates indicates acceptance of the revised policy. This policy
+          applies to both Android and iOS versions of the app.
+        </Typography>
+
+        <Typography
+          variant="h4"
+          component="h2"
+          gutterBottom
+          mt={{ xs: 2, sm: 3, md: 5 }}
+          sx={{
+            color: "primary.main",
+            fontSize: { xs: "1.3rem", sm: "1.8rem", md: "2.125rem" },
+            lineHeight: { xs: 1.3, md: 1.4 },
+          }}
+        >
+          Contact Information
+        </Typography>
+        <Typography
+          variant="body1"
+          paragraph
+          sx={{ lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}
+        >
+          For questions, privacy requests, or feedback, please contact us at:{" "}
+          <Link href="mailto:kamranyofficial@gmail.com" target="_blank">
+            kamranyofficial@gmail.com
+          </Link>
+        </Typography>
       </Stack>
     </Container>
   );
