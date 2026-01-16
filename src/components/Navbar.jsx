@@ -23,6 +23,7 @@ const navItems = [
   { title: "Home", href: "/" },
   { title: "Demo", href: "/quick-demo" },
   { title: "Features", href: "/features" },
+  { title: "Blog", href: "/blogs" },
   { title: "Team", href: "/team" },
   { title: "FAQs", href: "/faqs" },
 ];

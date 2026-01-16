@@ -388,7 +388,6 @@ export default function Page() {
                             // right: 100,
                             // bottom: -70,
                             objectFit: "cover",
-
                             borderRadius: "20px",
                           }}
                         />

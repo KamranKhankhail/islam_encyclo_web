@@ -38,6 +38,7 @@ const companyLinksData = [
     linksTitle: [
       { title: "Features", href: "/features" },
       { title: "Demo", href: "/quick-demo" },
+      { title: "Blog", href: "/blogs" },
     ],
   },
 
